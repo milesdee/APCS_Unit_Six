@@ -1,3 +1,4 @@
+import java.io.FileWriter;
 import java.util.Scanner;
 import java.io.File;
 import java.io.IOException;
@@ -15,8 +16,12 @@ public class readWrite {
         return words;
     }
 
-    public static void write(String[] arr){
-
+    public static void write(String[] arr) throws IOException {
+        FileWriter fw = new FileWriter("files/writeto.txt");
+        for(String word : arr){
+            fw.write(word + " ");
+        }
+        fw.close();
     }
 
     public static void main(String[] args) throws IOException {
