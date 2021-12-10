@@ -1,50 +1,68 @@
 public class EnhancedForLoops {
 
     public static String printStandardFor(String[] arr){
-
-        return "";
+        String output = "";
+        for(int i = 0; i < arr.length; i++ ) output += (arr[i]) + " ";
+        return output;
     }
 
     public static String printStandardFor(int[] arr){
-
-        return "";
+        String output = "";
+        for(int i = 0; i < arr.length; i++ ) output += (arr[i]) + " ";
+        return output;
     }
 
     public static String printStandardFor(double[] arr) {
-
-        return "";
+        String output = "";
+        for(int i = 0; i < arr.length; i++ ) output += (arr[i]) + " ";
+        return output;
     }
 
     public static String printEnhancedFor(String[] arr){
-
-        return "";
+        String output = "";
+        for (String s : arr) output += s + " ";
+        return output;
     }
 
     public static String printEnhancedFor(int[] arr){
-
-        return "";
+        String output = "";
+        for (int s : arr) output += s + " ";
+        return output;
     }
 
     public static String printEnhancedFor(double[] arr){
-
-        return "";
+        String output = "";
+        for (double s : arr) output += s + " ";
+        return output;
     }
 
     public static String printStandardWhile(String[] arr) {
-
-        return "";
+        String output = "";
+        int i = 0;
+        while(i < arr.length){
+            output += arr[i] + " ";
+            i++;
+        }
+        return output;
     }
 
     public static String printStandardWhile(int[] arr) {
-
-        return "";
+        String output = "";
+        int i = 0;
+        while(i < arr.length){
+            output += arr[i] + " ";
+            i++;
+        }
+        return output;
     }
 
     public static String printStandardWhile(double[] arr) {
-
-        return "";
+        String output = "";
+        int i = 0;
+        while(i < arr.length){
+            output += arr[i] + " ";
+            i++;
+        }
+        return output;
     }
-
-    // In the space below, make sure to create your main method and your arrays to test each of your loop methods.
-
 }
