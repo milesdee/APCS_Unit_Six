@@ -14,6 +14,6 @@ public class Search {
 
     public static void main(String[] args) {
         int[] testing = {2, 5, 13, 27, 43, 55, 57, 61, 72, 83, 99};
-        System.out.println(search(testing, 83));
+        System.out.println(search(testing, 13));
     }
 }
